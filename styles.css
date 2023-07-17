@@ -1,0 +1,94 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #222327;
+  }
+  
+  header {
+    background-color: #16161d;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #222327;
+  }
+  
+  .navbar-toggler {
+    border-color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2, h3 {
+    color: #f7f7f7;
+    font-weight: 500;
+  }
+  
+  footer {
+    background-color: #16161d;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    background-color: #fff;
+    color: #16161d;
+    padding: 20px 0;
+    border-radius: 0.25rem;
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    animation: fadein 1s ease-in-out;
+  }
+  
+  .jumbotron p {
+    font-size: 1.5rem;
+    animation: fadein 1s ease-in-out;
+  }
+  
+  .py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .bg-light {
+    background-color: #222327;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .py-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .bg-dark {
+    background-color: #131314;
+  }
+  
+  .text-light {
+    color: #fff;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
